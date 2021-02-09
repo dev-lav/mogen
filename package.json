@@ -1,0 +1,32 @@
+{
+  "name": "mogen",
+  "version": "1.0.0",
+  "description": "Mocha test generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-lav/mogen.git"
+  },
+  "keywords": [
+    "mocha",
+    "api",
+    "test",
+    "test",
+    "automation"
+  ],
+  "author": "Fatoni Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-lav/mogen/issues"
+  },
+  "homepage": "https://github.com/dev-lav/mogen#readme",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.2.1"
+  }
+}

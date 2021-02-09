@@ -1,0 +1,19 @@
+const chai = require("chai");
+const expect = require("chai").expect;
+const chaiHttp = require("chai-http");
+chai.use(chaiHttp);
+require('dotenv').config()
+
+const api = chai.request(process.env.URL);
+
+describe("{{describe}}", function () {
+	it("Success", function (done) {
+		api.{{method}}("{{endpoint}}")
+      	{{header}}
+	    {{body}}
+	    .end(function (err, res) {
+	        expect(res.status).to.equals(200);
+	        done();
+	    });
+	});
+})
