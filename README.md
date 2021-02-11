@@ -9,3 +9,6 @@ Generate your API Testing. This example using API from [Reqres.in](https://reqre
  4. Use your editor (I am using [Sublime Text](https://www.sublimetext.com/)) to replace `{{URL}}` with `/` (depend on your API collection)
  5. Run command `npm test`
  6. Enjoy!
+
+ # Demo Video
+ https://youtu.be/qcyrmVu2RhU
